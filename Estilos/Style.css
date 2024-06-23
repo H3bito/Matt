@@ -1,0 +1,64 @@
+body{
+    background-color: azure;
+    margin: 0px;
+}
+
+#cabecera{
+    float: left;
+    width: 100%;
+    border-radius: 0px 0px 15px 0;
+    background-color: rgba(5, 4, 4, 0.39);
+}
+
+.clearfix::after {
+    content: ""; 
+    clear: both;
+    display: table;
+  } 
+
+.LeftContent{
+    margin: 35px 35px 15px 0px;
+    border: solid;
+    border-color: rgb(5, 153, 221);
+    background-color: rgba(9, 166, 194, 0.884);
+    border-radius: 0 40px 40px 0;
+    height: 200px;
+    width: 97%;
+}
+
+.RightContent{
+    margin: 15px 0px 50px 35px;
+    border: solid;
+    border-color: rgba(133, 5, 172, 0.938);
+    background-color: rgb(85, 6, 105);
+    height: 200px;
+    border-radius: 40px 0 0 40px;
+}
+
+.LeftPanels{
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 0px;
+    list-style: none;
+    border: solid;
+    border-color: black;
+    background-color: yellow;
+    height: 150px;
+    width: 130px;
+    float: left;
+    border-radius: 0px 0px 150px 150px;
+}
+
+.RightPanels{
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 0px;
+    list-style: none;
+    border: solid;
+    border-color: black;
+    background-color: yellow;
+    height: 150px;
+    width: 130px;
+    float: right;
+    border-radius: 0px 0px 150px 150px;
+}
